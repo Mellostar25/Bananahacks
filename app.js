@@ -1,3 +1,9 @@
+//getting elements from HTML
+var form = document.getElementById('form');
+var button = document.getElementById('submit');
+var status = document.getElementById('status');
+
+//formspree redirect restriction
 window.addEventListener("DOMContentLoaded", function () {
     // get the form elements defined in your form HTML above
   
@@ -10,7 +16,7 @@ window.addEventListener("DOMContentLoaded", function () {
     function success() {
       form.reset();
       status.classList.add("success");
-      status.innerHTML = "Thanks!";
+      status.innerHTML = "Thank you for submitting your event details! We will begin processing your request ASAP!";
     }
   
     function error() {

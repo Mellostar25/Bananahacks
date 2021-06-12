@@ -11,9 +11,7 @@
     width: 100%;
     background-color: aliceblue;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+   
   }
   .container {
     width: 90%;
@@ -69,11 +67,11 @@
     border-radius: 8px;
   }
   #status.success {
-    background-color: rgb(211, 250, 153);
+    background-color: rgb(139, 231, 0);
     animation: status 4s ease forwards;
   }
   #status.error {
-    background-color: rgb(250, 129, 92);
+    background-color: rgb(250, 84, 33);
     color: white;
     animation: status 4s ease forwards;
   }
