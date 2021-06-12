@@ -17,14 +17,17 @@
   .container {
     width: 90%;
     max-width: 500px;
-    margin: 0 auto;
-    padding: 20px;
+    max-height: 1800px;
+    height: 920px;
+    margin: auto;
+    padding: 10px;
     box-shadow: 0px 0px 20px #00000010;
-    background-color: white;
+    background-color: rgb(255, 255, 255, 0.3);
     border-radius: 8px;
     margin-bottom: 20px;
+    position: relative; left: 50px; top: 20px;
   }
-  .form-group {
+  .form-group {   
     width: 100%;
     margin-top: 20px;
     font-size: 20px;
@@ -35,8 +38,10 @@
     padding: 5px;
     font-size: 10px;
     border: 1px solid rgba(128, 128, 128, 0.199);
+    background-color: rgb(255, 255, 255, 0.3);
     margin-top: 5px;
   }
+ 
   
   textarea {
     resize: vertical;
@@ -57,7 +62,7 @@
     transition: 0.3s ease background-color;
   }
   button[type="submit"]:hover {
-    background-color: rgb(214, 226, 236);
+    background-color: rgb(47, 175, 58);
   }
   #status {
     width: 90%;
@@ -91,13 +96,37 @@
     }
   }
 
-h1{
+{
     padding-bottom: 50px;
+    font-size: 30px;
 }
 h2{
     text-align: center;
 }
-.flexbox-container  {
+body {
   flex-direction: column;
   display: flex;
+  align-content: space-around;
+  
+}
+.container-1 {
+  width: 1000%;
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 0px 0px 20px #00000010;
+  background-color: rgba(255, 188, 84, 0.3);
+  border-radius: 8px;
+  margin-bottom: 20px;
+  text-align: center;
+  position: relative; right: 350px; top: 50px;
+}
+
+h1{
+style ="font-size: 250px;"
+style = "color: blue;"
+}
+
+.flexbox-3{
+  position: relative; top: 300px; right: 450px;
 }
