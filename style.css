@@ -18,14 +18,14 @@
     width: 90%;
     max-width: 500px;
     max-height: 1800px;
-    height: 920px;
+    height: 700px;
     margin: auto;
     padding: 10px;
     box-shadow: 0px 0px 20px #00000010;
     background-color: rgb(255, 255, 255, 0.3);
     border-radius: 8px;
     margin-bottom: 20px;
-    position: relative; left: 50px; top: 20px;
+    position: relative; left: 50px; bottom: 240px;
   }
   .form-group {   
     width: 100%;
@@ -103,12 +103,6 @@
 h2{
     text-align: center;
 }
-body {
-  flex-direction: column;
-  display: flex;
-  align-content: space-around;
-  
-}
 .container-1 {
   width: 1000%;
   max-width: 900px;
@@ -128,5 +122,5 @@ style = "color: blue;"
 }
 
 .flexbox-3{
-  position: relative; top: 300px; right: 310px;
+  position: relative; top: 300px; right: 450px;
 }
