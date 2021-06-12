@@ -64,6 +64,7 @@
   }
   #status {
     width: 90%;
+    height: 50%;
     text-align: center;
     padding: 10px;
     margin: 0 auto;
