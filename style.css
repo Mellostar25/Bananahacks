@@ -11,6 +11,7 @@
     width: 100%;
     background-color: aliceblue;
     display: flex;
+    text-align: center;
    
   }
   .container {
@@ -68,12 +69,12 @@
   }
   #status.success {
     background-color: rgb(139, 231, 0);
-    animation: status 4s ease forwards;
+    animation: status 10s ease forwards;
   }
   #status.error {
     background-color: rgb(250, 84, 33);
     color: white;
-    animation: status 4s ease forwards;
+    animation: status 5s ease forwards;
   }
   @keyframes status {
     0% {
@@ -95,4 +96,8 @@ h1{
 }
 h2{
     text-align: center;
+}
+.flexbox-container  {
+  flex-direction: column;
+  display: flex;
 }

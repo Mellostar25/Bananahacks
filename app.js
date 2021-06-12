@@ -16,7 +16,7 @@ window.addEventListener("DOMContentLoaded", function () {
     function success() {
       form.reset();
       status.classList.add("success");
-      status.innerHTML = "Thank you for submitting your event details! We will begin processing your request ASAP!";
+      status.innerHTML = "Thank you for submitting your event details! We will begin processing your request ASAP! We will email you back once we have updated your post!";
     }
   
     function error() {

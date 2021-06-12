@@ -13,10 +13,25 @@
     <center><title>Invenio Hub</title></center>
 </head>
 <link rel="stylesheet" href="style.css">
-<body>
+<body class="flexbox-container">
     <center><h1>Invenio Hub</h1></center>
+    <style>
+        section {
+          background-image: url('https://lh3.googleusercontent.com/proxy/Eedjlug5vBgggTxinFdRHk4AeIH5gnzCWM4bEi0IHw7_X1fKAgdUfqcLNCnYXtN5IOoGdPmHX9k4xhj5JFswqIKoC9kleQzWIwrvDVLt1faqqywHTUMN4tg2CUan1Drtqr_1sw');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+        }
 
+        body {
+          background-image: url('https://lh3.googleusercontent.com/proxy/Eedjlug5vBgggTxinFdRHk4AeIH5gnzCWM4bEi0IHw7_X1fKAgdUfqcLNCnYXtN5IOoGdPmHX9k4xhj5JFswqIKoC9kleQzWIwrvDVLt1faqqywHTUMN4tg2CUan1Drtqr_1sw');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+        }
 
+        </style>
+      <!-- Form -->
     <section>
         
         <div align="left" class="container">
@@ -27,11 +42,12 @@
                 label {
                   display: inline-block;
                   width: 150px;
-                  text-align: right;
+                  text-align: right;  
                 }
+                
               </style>
               <h2>Create your own event!</h2>
-            <center><form action="https://formspree.io/f/xbjqygab" method="post" id="my-form">
+            <center><form action="https://formspree.io/f/xbjqygab" method="post" id="my-form" class="flexbox-1">
 
                 <div class="form-group" id="fullName">
                     <label for="fullName">Please enter your FULL name:</label>
@@ -65,15 +81,26 @@
 
                 <div class="form-group" id="description">
                     <label for="description">Please enter event description:</label>
-                    <textarea name="description" id="description" cols="30" rows="4"></textarea>
+                    <textarea name="description" id="description" cols="30" rows="10"></textarea>
                 </div>
 
                 
                 <button type="submit">Submit</button>
                
             </form></center>
+
+            
         </div>
         <div id="status"></div>
+    </section>
+
+      <!-- Event postings -->
+    <section>
+
+        <div class="Post-1">
+            
+        </div>
+
     </section>
 
 </body>
