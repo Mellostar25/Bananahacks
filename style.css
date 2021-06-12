@@ -136,5 +136,8 @@
   position: relative; right: 15%; top: 15%;
   background-color: rgba(212, 132, 12, 0.3)  
 }
-
+.flexbox-6{
+  position: relative; top: 15%;
+  background-color: rgba(146, 91, 7, 0.3)  
+}
 
